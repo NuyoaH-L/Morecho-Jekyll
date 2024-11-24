@@ -1,23 +1,19 @@
 <footer>
     <div class="text-center text-black-50" style="padding:1rem">
-        <div>&copy; {{ site.time | date: '%Y' }} {{ site.owner.name }} · Powered by Jekyll · Theme by Morecho</div>
+        <div>&copy; {{ site.time | date: '%Y' }} {{ site.owner.name }} <br> Powered by Jekyll <br> Theme by MuZhou233</div>
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    <script src="https://fastly.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://cdnjs.webstatic.cn/ajax/libs/bootstrap/4.6.2/js/bootstrap.min.js"></script>
     <script>
         feather.replace()
     </script>
-    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/highlight.min.js"></script>
-    <script
-        src="//cdn.jsdelivr.net/npm/highlightjs-line-numbers.js@2.7.0/dist/highlightjs-line-numbers.min.js"></script>
+    <script src="//fastly.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/highlight.min.js"></script>
+    <script src="//fastly.jsdelivr.net/npm/highlightjs-line-numbers.js@2.7.0/dist/highlightjs-line-numbers.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
     <script src="{{ '/asserts/js/SmoothScroll.min.js' | prepend: site.baseurl }}"></script>
     <script src="{{ '/asserts/js/Autolinker.min.js' | prepend: site.baseurl }}"></script>
@@ -56,17 +52,6 @@
     <script src="{{ '/asserts/lib/plyr/plyr.polyfilled.min.js' | prepend: site.baseurl }}"></script>
     <script>
         const player = new Plyr('#player', { controls: '' });
-        /*
-        player.source = {
-            type: 'audio',
-            sources: [
-                {
-                    src: '/asserts/lib/plyr/test.mp3',
-                    type: 'audio/mp3',
-                },
-            ],
-        };
-        */
         $('.music-controls .play').click(function () {
             player.play();
             $('.music-controls').removeClass('paused');
@@ -102,3 +87,8 @@
         })
     </script>
 </footer>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NJ6GVQ3"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+

@@ -1,0 +1,71 @@
+<!--Addthis分享插件-->
+<script type="async" src="https://fastly.jsdelivr.net/gh/NuyoaH-L/Morecho-Jekyll@master/asserts/js/addthis.min.js"></script>
+
+<!--Fortawesome图标-->
+<script async="async" src="https://fastly.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/js/all.min.js"></script>
+
+<!--不蒜子页面统计-->
+<script async="async" src='https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js'></script>
+
+<!--Feather Icon-->
+<script src="https://fastly.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+
+<!--搜索-->
+<script src="https://fastly.jsdelivr.net/gh/NuyoaH-L/Morecho-Jekyll@master/asserts/js/simple-jekyll-search.min.js"></script>
+<script>
+  SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('results-container'),
+      json: '/asserts/json/search.json',
+      searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+      noResultsText: '什么都没有呢',
+      limit: 20,
+      fuzzy: false
+    })
+</script>
+
+<!--
+<!--百度自动推送
+<script>
+  ;(function () {
+    if (window.location.hostname == '127.0.0.1') {
+      return
+    }
+    var bp = document.createElement('script')
+    var curProtocol = window.location.protocol.split(':')[0]
+    if (curProtocol === 'https') {
+      bp.src = 'https://zz.bdstatic.com/linksubmit/push.js'
+    } else {
+      bp.src = 'http://push.zhanzhang.baidu.com/push.js'
+    }
+    var s = document.getElementsByTagName('script')[0]
+    s.parentNode.insertBefore(bp, s)
+  })()
+</script>
+
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?b017ea5e3c78a2e84be76a637e5e5051";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+-->
+<!-- Global site tag (gtag.js) - Google Analytics 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XC6L0N0FFJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XC6L0N0FFJ');
+</script>-->
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NJ6GVQ3');</script>
+<!-- End Google Tag Manager -->
