@@ -1,10 +1,11 @@
-# Morecho - Jekyll
+# 主题作者 [MuZhou233](https://github.com/MuZhou233)
+# 博客主题 [Morecho - Jekyll](https://github.com/MuZhou233/Morecho-Jekyll)
 
-## Get Started
+## 开始
 
-1. clone or fork this repo
-1. install ruby on your pc
-1. run the following command
+1. 克隆或者fork这个仓库
+1. 在你的电脑安装ruby
+1. 运行命令
 
 ```bash
 $ gem install bundler jekyll
@@ -13,13 +14,13 @@ $ bundle install
 $ bundle exec jekyll serve
 ```
 
-you will see your blog [here](http://localhost:4000)
+你将会在这看到你的博客 [here](http://localhost:4000)
 
 ## Progress
 
 [Check out here](progress.md)
 
-## Thanks to  
+## 感谢  
 
 - JQuery
 - BootStrap
