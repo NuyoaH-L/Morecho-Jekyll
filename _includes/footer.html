@@ -2,18 +2,22 @@
     <div class="text-center text-black-50" style="padding:1rem">
         <div>&copy; {{ site.time | date: '%Y' }} {{ site.owner.name }} <br> Powered by <a href="https://jekyllcn.com/" target="_blank">Jekyll</a> <br> Theme by <a href="https://github.com/muzhou233" target="_blank">MuZhou233</a> <br> <a href="https://icp.gov.moe/?keyword=20242580" target="_blank">萌ICP备20242580号</a></div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    <script src="https://cdnjs.webstatic.cn/ajax/libs/jquery/3.4.1/jquery.min.js" 
+        integrity="sha512-bnIvzh6FU75ZKxp0GXLH9bewza/OIw6dLVh9ICg0gogclmYGguQJWl8U30WpbsGTqbIiAwxTsbe76DErLq5EDQ==" 
         crossorigin="anonymous"></script>
-    <script src="https://fastly.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.webstatic.cn/ajax/libs/bootstrap/4.6.2/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://cdnjs.webstatic.cn/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.js" 
+    integrity="sha512-z9SE9KBPrRUdqvatMVDdTEF4SJIrKYPA5/Q1JBgQGOfOczbtLwHSbHRoScFvc0XzDQUdXRqu9jwKi19jMtDsQw==" 
+    crossorigin="anonymous"></script>
     <script>
         feather.replace()
     </script>
-    <script src="//fastly.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/highlight.min.js"></script>
-    <script src="//fastly.jsdelivr.net/npm/highlightjs-line-numbers.js@2.7.0/dist/highlightjs-line-numbers.min.js"></script>
+    <script src="https://cdnjs.webstatic.cn/ajax/libs/highlight.js/9.18.1/highlight.min.js" 
+        integrity="sha512-1LdB3V708w6G4QRl7NsVdTr7MDibyRXr9stQZ+EGjEE0ZPMZkA//ir7kCWmFyxdAJNIRXdR/ZeJmCV0boyiCXw==" 
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.webstatic.cn/ajax/libs/highlightjs-line-numbers.js/2.7.0/highlightjs-line-numbers.js" 
+        integrity="sha512-w3VWbjfZT2epbo0XhTu3aalOEqmPir9kpCKjI8WeI9VPcSm6H+IaZS+jyNvLvs5OgV57B1x15abHKE66guKkGQ==" 
+        crossorigin="anonymous"></script>
     <script>hljs.initHighlightingOnLoad();</script>
     <script src="{{ '/asserts/js/SmoothScroll.min.js' | prepend: site.baseurl }}"></script>
     <script src="{{ '/asserts/js/Autolinker.min.js' | prepend: site.baseurl }}"></script>
@@ -49,7 +53,6 @@
     {% endif %}
 
     <script src="{{ '/script.js' | prepend: site.baseurl }}"></script>
-    <!--<script src="{{ '/asserts/lib/plyr/plyr.polyfilled.min.js' | prepend: site.baseurl }}"></script>-->
     <script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
     <script>
         const player = new Plyr('#player', { controls: '' });
